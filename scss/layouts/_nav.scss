@@ -1,0 +1,23 @@
+.navbar{
+    width: 90%;
+    margin: auto;
+    background-color: #FFF;
+    @include add-border(1px, #e7e7e7, 'left-right');
+    min-height: 60px;
+
+    
+    a{
+        color: $primaryColor;
+        font-size: 18px;
+        letter-spacing: -.5px;
+        padding-bottom: 24px;
+        padding-top: 20px
+    }
+}
+
+.navbar-expand-md .navbar-nav li > a:hover,
+.navbar-expand-md .navbar-nav li > a:focus,
+.navbar-expand-md .navbar-nav .active a{
+    background-color: $primaryColor !important;
+    color: #FFF !important
+}

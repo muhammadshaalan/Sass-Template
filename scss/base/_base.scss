@@ -1,0 +1,42 @@
+body{
+    font-family: $baseFontFamily;
+    font-size: $baseFontSize;
+    line-height: 1.7em;
+    color: $baseFontColor
+}
+
+a{
+    color: #000;
+    &:hover{
+        color: #000
+    }
+}
+
+input, textarea, button{
+    @include border-radius(0px);
+}
+
+.device img{width: 100%}
+
+.devices-ipad img{
+    width: 70%;
+    margin-bottom: -40px
+}
+
+hr{
+    @include add-background(#FFF)
+}
+
+.img-circle{
+    border-radius: 50%;
+    width: 100px;
+    padding: 10px
+}
+
+.navbar-toggler-icon{
+    background-color: $primaryColor
+}
+
+.navbar-toggler{
+    cursor: pointer
+}

@@ -1,0 +1,19 @@
+/*Buttons*/
+
+.btn-default{
+    background-color: #FFF;
+    cursor: pointer
+}
+
+
+
+.btn-primary{
+    @include add-background($primaryColor);
+    @include add-border(2px, #FFF, all);
+    
+    &:hover{
+        background: darken($primaryColor, 10%);
+        @include add-border(2px, #FFF, all);
+    }
+}
+

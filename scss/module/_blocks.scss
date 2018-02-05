@@ -1,0 +1,72 @@
+/*Blocks*/
+
+.block{
+    padding: 15px;
+    margin-bottom: 15px;
+    
+    h3{
+        margin-top: 0;
+        padding-top: 0;
+    }
+    
+    iframe{width: 100%}
+}
+
+.block-primary{
+    @extend .block;
+    @include add-background($primaryColor)
+}
+
+.block-secondary{
+    @extend .block;
+    @include add-background($secondaryColor)
+}
+
+.block-light{
+    @extend .block;
+    @include add-background($lightColor)
+}
+
+
+.block-image img{
+    width: 100%
+}
+
+.block-border{
+    @include add-border(1px, #CCC, all)
+}
+
+       
+.block-primary-head {
+    h3{
+        @include add-background($primaryColor);
+        padding: 20px 10px;
+        margin-bottom: 0;
+        font-size: 18px;
+        border-radius: 5px 5px 0px 0px
+        }
+    
+    .block-content{
+        @include add-border(2px, $primaryColor, all);
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 0px 0px 5px 5px
+        }
+}
+
+.block-icon{
+    h3{
+        padding: 0;
+        margin: 0
+    }
+    
+    .icon{
+        float: left;
+        width: 20%
+    }
+    
+    .icon-info{
+        float: left;
+        width: 70%
+    }
+}

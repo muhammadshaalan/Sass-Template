@@ -1,0 +1,19 @@
+/*Blog*/
+
+.blog-post{
+    @include add-border(1px, #CCC, top);
+    @include add-border(1px, #CCC, left-right);
+    padding: 15px;
+    
+    .blog-featured{
+        float: left;
+        margin-right: 15px;
+    }
+}
+
+.blog-meta{
+    padding: 10px 10px 5px 10px;
+    background-color: #f3f3f3;
+    @include add-border(1px, #CCC, all);
+    margin-bottom: 20px
+}

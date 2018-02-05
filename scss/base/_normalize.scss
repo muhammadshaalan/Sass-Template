@@ -1,0 +1,26 @@
+h1,h2,h3,h4,h5,h6{margin-top: 5px}
+
+a{
+    color: $primaryColor
+}
+
+.page-header{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-top: 20px
+}
+
+.no-pad-top{padding-top: 0}
+
+.extra-pad{
+    padding-bottom: 40px;
+    padding-top: 40px
+}
+
+.inner-pad{
+    padding: 120px 0 40px 0
+}
+
+/*Image Size*/
+
+.img-sm{width: 300px}

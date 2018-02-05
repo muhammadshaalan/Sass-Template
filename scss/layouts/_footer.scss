@@ -1,0 +1,17 @@
+/*Footer*/
+
+footer{
+    @include add-background($darkColor);
+    @include add-border(5px, $secondaryColor, top);
+    padding: 30px 0;
+    min-height: 200px;
+    z-index: 100;
+
+    li{
+        line-height: 1.9
+    }
+    
+    a{
+        color: #FFF
+    }
+}

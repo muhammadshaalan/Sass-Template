@@ -1,0 +1,43 @@
+/*Base*/
+
+/*Start Variables*/
+
+@import 'base/_variables.scss';
+
+/*End Variables*/
+
+/*Start Mixins*/
+
+@import 'base/_mixins.scss';
+
+/*End Mixins*/
+
+/*Start Base*/ 
+
+@import 'base/_base.scss';
+
+/*End Base*/
+
+/*Start Normalize*/
+
+@import 'base/_normalize.scss';
+
+/*Ednd Normalize*/
+
+/*Layouts*/
+
+@import 'layouts/_header.scss';
+@import 'layouts/_footer.scss';
+@import 'layouts/_nav.scss';
+@import 'layouts/_blog.scss';
+
+
+/*Module*/
+
+@import 'module/_blocks.scss';
+@import 'module/_buttons.scss';
+@import 'module/_components.scss';
+@import 'module/_sections.scss';
+@import 'module/_typography.scss';
+@import 'module/_form.scss';
+@import 'layouts/_mobile.scss';
